@@ -2,8 +2,8 @@
 %global sum Python SDK for Cisco IMC 
 
 Name:           python-%{package_name}
-Version:        0.7.2
-Release:        3%{?dist}
+Version:        XXX
+Release:        XXX 
 Summary:        %{sum}
 
 License:        ASL 2.0
@@ -56,10 +56,4 @@ rm docs/conf.py
 %license LICENSE
 
 %changelog
-* Tue Jan 12 2016 Brian Demers <brdemers@cisco.com> 0.7.2-3
-- removing doc config.py from rpm 
-* Mon Jan 11 2016 Brian Demers <brdemers@cisco.com> 0.7.2-2
-- Updating to use a python2 package, to allow for future python3 
-* Mon Dec 21 2015 Brian Demers <brdemers@cisco.com> 0.7.2-1
-- Initial RPM release
 
